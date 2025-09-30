@@ -1,0 +1,11 @@
+{
+  "start_time": "2025-09-23T20:15:26.130006Z",
+  "total_requests": 26,
+  "successful_requests": 25,
+  "failed_requests": 0,
+  "apis_used": [],
+  "quality_scores": [
+    0.75
+  ],
+  "data_quality_score": 0.75
+}

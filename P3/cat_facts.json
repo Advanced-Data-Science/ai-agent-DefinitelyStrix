@@ -1,0 +1,11 @@
+{
+  "source": "https://catfact.ninja/fact",
+  "count": 5,
+  "facts": [
+    "A cat cannot see directly under its nose.",
+    "Tylenol and chocolate are both poisionous to cats.",
+    "A cat almost never meows at another cat, mostly just humans. Cats typically will spit, purr, and hiss at other cats.",
+    "A cat uses its whiskers for measuring distances.  The whiskers of a cat are capable of registering very small changes in air pressure.",
+    "Cat paws act as tempetature regulators, shock absorbers, hunting and grooming tools, sensors, and more"
+  ]
+}

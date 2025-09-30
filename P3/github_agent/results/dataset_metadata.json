@@ -1,0 +1,73 @@
+{
+  "collection_info": {
+    "collection_date": "2025-09-23T20:16:27.244018Z",
+    "agent_version": "1.0",
+    "collector": "Comma",
+    "total_records": 25,
+    "config": {
+      "language": "python",
+      "topic": null,
+      "topN": 25,
+      "outdir": "results",
+      "base_delay": 1.0,
+      "max_requests": 200,
+      "use_fallback_api": false
+    }
+  },
+  "data_sources": [],
+  "quality_metrics": {
+    "completeness": 1.0,
+    "timeliness": 0.0,
+    "consistency": 1.0,
+    "accuracy": 1.0,
+    "overall_quality_score": 0.75
+  },
+  "processing_history": [
+    "Collection started at 2025-09-23T20:15:26.130006Z",
+    "Total requests: 26 (successful: 25, failed: 0)",
+    "Quality score samples (last 5): [0.75]",
+    "Rate limit snapshot: remaining=4975 limit=5000"
+  ],
+  "variables": {
+    "full_name": {
+      "type": "str",
+      "description": "Repository full name (owner/repo)"
+    },
+    "html_url": {
+      "type": "str",
+      "description": "Repository web URL"
+    },
+    "description": {
+      "type": "str",
+      "description": "Repository description"
+    },
+    "language": {
+      "type": "str",
+      "description": "Primary language"
+    },
+    "stargazers_count": {
+      "type": "int",
+      "description": "Number of stars"
+    },
+    "forks_count": {
+      "type": "int",
+      "description": "Number of forks"
+    },
+    "open_issues_count": {
+      "type": "int",
+      "description": "Open issues count"
+    },
+    "watchers_count": {
+      "type": "int",
+      "description": "Watchers count"
+    },
+    "created_at": {
+      "type": "str",
+      "description": "Repository creation timestamp"
+    },
+    "pushed_at": {
+      "type": "str",
+      "description": "Last push timestamp"
+    }
+  }
+}

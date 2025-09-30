@@ -1,0 +1,11 @@
+{
+  "total_records": 25,
+  "total_requests": 26,
+  "successful_requests": 25,
+  "failed_requests": 0,
+  "quality_score": 0.75,
+  "recommendations": [
+    "Focus on actively maintained repositories or increase sampling frequency to improve timeliness.",
+    "Run a longer collection or cross-validate records with another source to boost data quality."
+  ]
+}

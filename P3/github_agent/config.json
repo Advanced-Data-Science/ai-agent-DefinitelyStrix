@@ -1,0 +1,10 @@
+{
+  "github_token": "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",
+  "language": "python",
+  "topic": null,
+  "topN": 25,
+  "outdir": "results",
+  "base_delay": 1.0,
+  "max_requests": 200,
+  "use_fallback_api": false
+}

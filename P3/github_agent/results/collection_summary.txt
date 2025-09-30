@@ -1,0 +1,9 @@
+Collection Summary - 2025-09-23T20:16:27.328914Z
+Total records collected: 25
+Total requests: 26 (successful: 25, failed: 0)
+Overall quality score: 0.75
+Sources used: 
+
+Recommendations:
+- Focus on actively maintained repositories or increase sampling frequency to improve timeliness.
+- Run a longer collection or cross-validate records with another source to boost data quality.

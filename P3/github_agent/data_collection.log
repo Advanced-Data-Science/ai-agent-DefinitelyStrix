@@ -1,0 +1,42 @@
+2025-09-23 15:55:47,568 - INFO - Starting collection: language=python topic=None topN=25
+2025-09-23 15:55:49,192 - INFO - Search returned 25 candidates
+2025-09-23 15:55:49,193 - ERROR - Unexpected error during collection: 'GitHubDataAgent' object has no attribute 'adjust_strategy'
+Traceback (most recent call last):
+  File "C:\Users\Comma\Desktop\School Programs\3870\github_agent\github_agent.py", line 149, in collect_data
+    self.adjust_strategy()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GitHubDataAgent' object has no attribute 'adjust_strategy'
+2025-09-23 15:58:10,209 - INFO - Starting collection: language=python topic=None topN=25
+2025-09-23 15:58:12,033 - INFO - Search returned 25 candidates
+2025-09-23 15:58:12,035 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.000
+2025-09-23 15:58:13,989 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.500
+2025-09-23 15:58:16,904 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.667
+2025-09-23 15:58:18,459 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.750
+2025-09-23 15:58:34,055 - INFO - Flushed 10 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 15:58:56,304 - INFO - Flushed 20 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 15:59:12,496 - INFO - Flushed 25 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:02:08,650 - INFO - Starting collection: language=python topic=None topN=25
+2025-09-23 16:02:10,483 - INFO - Search returned 25 candidates
+2025-09-23 16:02:10,485 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.000
+2025-09-23 16:02:12,980 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.500
+2025-09-23 16:02:14,958 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.667
+2025-09-23 16:02:16,750 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.750
+2025-09-23 16:02:30,588 - INFO - Flushed 10 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:02:52,480 - INFO - Flushed 20 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:03:04,538 - INFO - Flushed 25 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:03:04,548 - INFO - Collection complete. Collected 25 items
+2025-09-23 16:03:04,558 - INFO - Stats written to C:\Users\Comma\Desktop\School Programs\3870\github_agent\results\collection_stats.json
+2025-09-23 16:15:26,131 - INFO - Starting collection: language=python topic=None topN=25
+2025-09-23 16:15:27,667 - INFO - Search returned 25 candidates
+2025-09-23 16:15:27,668 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.000
+2025-09-23 16:15:29,149 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.500
+2025-09-23 16:15:31,712 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.667
+2025-09-23 16:15:32,912 - INFO - Adjusted strategy: delay_multiplier=2.00 success_rate=0.750
+2025-09-23 16:15:49,131 - INFO - Flushed 10 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:16:12,829 - INFO - Flushed 20 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:16:27,239 - INFO - Flushed 25 records to disk (results\github_repo_summary.json, results\github_repo_summary.csv)
+2025-09-23 16:16:27,242 - INFO - Saved collection stats: results\collection_stats.json
+2025-09-23 16:16:27,246 - INFO - Wrote dataset metadata: results\dataset_metadata.json
+2025-09-23 16:16:27,328 - INFO - Wrote quality report: results\quality_report.json and results\quality_report.md
+2025-09-23 16:16:27,332 - INFO - Wrote collection summary: results\collection_summary.txt and results\collection_summary.json
+2025-09-23 16:16:27,333 - INFO - Final reporting complete.

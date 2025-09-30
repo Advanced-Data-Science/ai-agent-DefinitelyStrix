@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "total_records": 25,
+    "collection_success_rate": 0.9615,
+    "overall_quality_score": 0.75
+  },
+  "completeness_analysis": {
+    "created_at": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "description": {
+      "present": 24,
+      "pct_present": 0.96
+    },
+    "forks_count": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "full_name": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "html_url": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "language": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "open_issues_count": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "pushed_at": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "stargazers_count": {
+      "present": 25,
+      "pct_present": 1.0
+    },
+    "watchers_count": {
+      "present": 25,
+      "pct_present": 1.0
+    }
+  },
+  "data_distribution": {
+    "stargazers_count": {
+      "count": 25,
+      "min": 76182,
+      "max": 370025,
+      "mean": 145659.88,
+      "median": 99386,
+      "stdev": 88699.12
+    },
+    "forks_count": {
+      "count": 25,
+      "min": 3765,
+      "max": 64283,
+      "mean": 24237.16,
+      "median": 17642,
+      "stdev": 16905.58
+    },
+    "open_issues_count": {
+      "count": 25,
+      "min": 27,
+      "max": 17126,
+      "mean": 1604.76,
+      "median": 472,
+      "stdev": 3351.31
+    },
+    "watchers_count": {
+      "count": 25,
+      "min": 76182,
+      "max": 370025,
+      "mean": 145659.88,
+      "median": 99386,
+      "stdev": 88699.12
+    }
+  },
+  "anomaly_detection": {
+    "open_issues_count": {
+      "outlier_count": 1,
+      "examples": [
+        {
+          "full_name": "pytorch/pytorch",
+          "html_url": "https://github.com/pytorch/pytorch",
+          "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+          "language": "Python",
+          "stargazers_count": 93397,
+          "forks_count": 25377,
+          "open_issues_count": 17126,
+          "watchers_count": 93397,
+          "created_at": "2016-08-13T05:26:41Z",
+          "pushed_at": "2025-09-23T20:15:06Z"
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    "Focus on actively maintained repositories or increase sampling frequency to improve timeliness.",
+    "Run a longer collection or cross-validate records with another source to boost data quality."
+  ]
+}
